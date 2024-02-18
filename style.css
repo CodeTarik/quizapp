@@ -19,10 +19,35 @@ body {
     background-color: antiquewhite;
 }
 
+.card {
+    padding: 12px;
+    width: 24rem;
+}
+
 .card img {
     padding: 30px;
+    border-radius: 20%;
 }
 
 .list-group {
     font-weight: 700;
+}
+
+.question-footer {
+    margin-top: 30px;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 8vw;
+}
+
+button {
+    border-radius: 24px !important;
+    background-color: #C31656;
+    color: white;
+    padding: 4px;
+    cursor: src="./img/quiz-card.jpg", pointer !important;
 }
