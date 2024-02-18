@@ -1,0 +1,28 @@
+body {
+    background-color: #e3c164 !important;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.container {
+    background-color: #e3c164 !important;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid {
+    background-color: antiquewhite;
+}
+
+.card img {
+    padding: 30px;
+}
+
+.list-group {
+    font-weight: 700;
+}
