@@ -20,7 +20,7 @@
 
 </head>
 
-<body>
+<body onload="init()">
 
 
     <!--Navbar-->
@@ -39,39 +39,39 @@
             <img src="./img/quiz-card.jpg" class="card-img-top rounded-circle">
 
             <div class="card-body">
-            <h5 class="card-title">Frage</h5>
-            <p class="card-text">Wer war Nikola Tesla ?</p>
+                <h5 class="card-title" id="questiontext">Frage</h5>
+                
             </div>
 
-            <div class="card mb-2 border-5 border-danger w-25">
-                <div class="card-body">
-                Antwort
+            <div class="card mb-2 border-5 border-danger ">
+                <div class="card-body" id="answer_1">
+                    Antwort
                 </div>
             </div>
 
-            <div class="card mb-2 border-5 border-warning w-50">
-                <div class="card-body">
-                Antwort
+            <div class="card mb-2 border-5 border-warning ">
+                <div class="card-body" id="answer_2">
+                    Antwort
                 </div>
             </div>
 
-            <div class="card mb-2 border-5 border-danger w-75">
-                <div class="card-body">
-                Antwort
+            <div class="card mb-2 border-5 border-danger ">
+                <div class="card-body" id="answer_3">
+                    Antwort
                 </div>
             </div>
 
-            <div class="card mb-2 border-5 border-warning w-100">
-                <div class="card-body">
-                Antwort
+            <div class="card mb-2 border-5 border-warning ">
+                <div class="card-body" id="answer_4">
+                    Antwort
                 </div>
             </div>
 
             <div class="question-footer mt-5">
                 <span>
-                <b>1</b>von<b>5</b>Fragen
+                    <b>1</b>von<b id="dynamic">5</b>Fragen
                 </span>
-                
+
                 <button class="btn btn-primary">Nächste Frage</button>
             </div>
 
